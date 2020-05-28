@@ -1,0 +1,151 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  shared_memory.c
+c:\program files\v-rep3\v-rep_pro_edu\programming\common\shared_memory.c(32): warning C4133: '함수': 'char [28]'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\common\shared_memory.c(56): warning C4133: '함수': 'char [28]'과(와) 'LPCWSTR' 사이의 형식이 호환되지 않습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\common\shared_memory.c(108): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
+  extApi.c
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(13): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(13): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(13): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(14): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(14): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(14): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(15): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(15): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(15): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(18): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(18): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(18): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(19): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(19): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(19): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(20): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(20): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(20): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(23): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(23): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(23): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(24): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(24): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(24): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(25): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(25): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(25): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(28): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(28): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(28): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(29): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(29): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(29): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(30): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(30): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(30): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(33): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(33): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(33): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(34): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(34): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(34): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(35): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(35): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(35): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(38): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(38): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(38): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(39): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(39): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(39): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(41): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(41): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(41): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(42): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(42): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(42): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(44): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(44): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(44): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(45): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(45): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(45): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(46): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(46): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(46): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(47): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(47): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(47): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(48): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(48): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(48): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(49): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(49): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(49): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(50): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(50): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(50): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(51): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(51): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(51): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(52): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(52): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(52): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(54): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(54): error C2057: 상수 식이 필요합니다.
+c:\program files\v-rep3\v-rep_pro_edu\programming\remoteapi\extapiinternal.h(54): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(39): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(79): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(90): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(139): error C2065: 'SIMX_HEADER_SIZE': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(179): error C2065: '_communicationThread': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(179): warning C4047: '함수': 'simxVoid (__cdecl *)(simxVoid *)'의 간접 참조 수준이 'int'과(와) 다릅니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(179): warning C4024: 'extApi_launchThread': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(201): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(219): warning C4013: '_exec_int'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(219): error C2065: 'simx_cmd_kill_connection': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(219): error C2065: 'simx_opmode_oneshot': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(245): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(252): error C2065: 'simx_cmd_kill_connection': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(252): error C2065: 'simx_opmode_oneshot': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(260): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(305): error C2065: 'simx_return_timeout_flag': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(315): error C2065: 'simx_cmdheaderoffset_mem_size': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapi.c(315): fatal error C1003: 오류 수가 100개를 초과했습니다. 컴파일을 중지합니다.
+  extApiPlatform.c
+  Adding library: Winmm.lib
+  Adding library: Ws2_32.lib
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(44): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(44): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(44): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(49): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(49): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(49): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(50): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(50): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(50): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(51): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(51): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(51): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(52): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(52): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(52): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(54): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(54): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(54): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(55): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(55): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(55): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(56): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(56): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(56): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(57): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(57): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(57): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(59): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(59): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(59): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(60): error C2065: 'MAX_EXT_API_CONNECTIONS': 선언되지 않은 식별자입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(60): error C2057: 상수 식이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(60): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(203): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+c:\users\yelin\source\repos\vrep\comebot\comebot\extapiplatform.c(634): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.

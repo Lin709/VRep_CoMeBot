@@ -38,9 +38,17 @@
       <Filter>Source\V-REP</Filter>
     </ClInclude>
     <ClInclude Include="imshi.h" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="VRep_GUI.h">
+      <Filter>Source</Filter>
+    </ClInclude>
     <ClInclude Include="Data_Format.h">
-      <Filter>Source\V-REP</Filter>
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_Transmission.h">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
