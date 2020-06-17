@@ -6,6 +6,7 @@
 #include <windows.h>
 #include <conio.h>
 #include "VRep_GUI.h"
+#include "Data_Format.h"
 /*
 	Thread Include Files
 */
@@ -46,7 +47,6 @@ struct SafeCondVar
 		}
 	}
 };
-
 SafeCondVar    Send_CondVar;
 SafeCondVar    Recv_CondVar;
 
@@ -61,57 +61,90 @@ void tran_socket(SOCKET sock);
 void recv_socket(SOCKET sock) {
 	char buff[BUFSIZE];
 	int ibuff;
-	string mode_buff;
+	string sbuff;
+	string str_data[3];
+	int str_cnt = 0;
+	//int distribute = 0;
+	Recv_Init_Variable();
+
 	while (1) {
 		ZeroMemory(buff, 1024);
 		int bytesReceived = recv(sock, buff, 1024, 0);
 		if (bytesReceived > 0) {
 			ibuff = atoi(buff); // buff : char[] -> int
-			ibuff = atoi(Mode[ibuff].c_str());
+			//ibuff = atoi(Mode[ibuff].c_str());
+			Mode_Select = ibuff / 10;
+			Stt_Data = ibuff % 10;
 
-			Oled_State = ibuff / 100;
-			Fin_State = (ibuff % 100) / 10;
-			Tail_State = ibuff % 10;
 			printf("\nrecv: %s\n", &buff);
 		}
-
+		
 		Recv_CondVar.notifyOne();
 	}
 }
 void tran_socket(SOCKET sock) {
 	/* Transmit Variable */
-	char cMsg[BUFSIZE] = "";
+	char cMsg[BUFSIZE] = { 0, };
 	string packet;
 	int i = 0;
+	bool* bp;
+	
 
 	/* ID Change */
 	scanf_s("%d", &Id); //0 cpp 1 rei 2 stt
 	strcpy(cMsg, Data_Packet[0][Id].c_str()); //id : string -> char[]
 	send(sock, cMsg, strlen(cMsg), 0); // id setting in Server
+	
+	Send_Init_Variable();
 
 	while (1) {
+		
 		Send_CondVar.wait();
-		GUI::getPara();
-		packet =
-			Data_Packet[0][Id] + ","
-			+ to_string(Hungry_Para) + ","
-			+ to_string(Tired_Para) + ","
-			+ Data_Packet[3][Touch_Sensor] + ","
-			+ Data_Packet[4][Force_Sensor] + ","
-			+ Data_Packet[5][Lift_Sensor] + ","
-			+ Data_Packet[6][Oled_State] + ","
-			+ Data_Packet[7][Fin_State] + ","
-			+ Data_Packet[8][Tail_State] + ","
-			+ to_string(Oled_State)
-			+ to_string(Fin_State)
-			+ to_string(Tail_State) + ","
-			+ to_string(Face_Detect) + ","
-			+ to_string(Reward);
+
+		//if ((Lift_Sensor != ON) & (Lift_Sensor != OFF))
+		//	Lift_Sensor = OFF;
+		
+		bp = GUI::get_flag();
+		for (int i = 0; i < 4; i++) {
+			if (bp[2] == 1)
+				Reward = 10;
+			if (bp[3] == 1)
+				Reward = -10;
+		}
+		
+		packet.append(Data_Packet[0][Id]);
+		packet.append(",");
+		packet.append(to_string(Hungry_Para));
+		packet.append(",");
+		packet.append(to_string(Tired_Para));
+		packet.append(",");
+		packet.append(Data_Packet[3][Touch_Sensor]);
+		packet.append(",");
+		packet.append(Data_Packet[4][Force_Sensor]);
+		packet.append(",");
+		packet.append(Data_Packet[5][Lift_Sensor]);
+		packet.append(",");
+		packet.append(Data_Packet[6][Oled_State]);
+		packet.append(",");
+		packet.append(Data_Packet[7][Fin_State]);
+		packet.append(",");
+		packet.append(Data_Packet[8][Tail_State]);
+		packet.append(",");
+		packet.append(to_string(Oled_State));
+		packet.append(to_string(Fin_State));
+		packet.append(to_string(Tail_State));
+		packet.append(",");
+		packet.append(to_string(Face_Detect));
+		packet.append(",");
+		packet.append(to_string(Reward));
+
 		strcpy(cMsg, packet.c_str()); //packet : string -> char[]
 		packet.clear();
+		Send_Init_Variable();
+
 		/*Packet Àü¼Û*/
+		printf("\nsend :%d %d %d\n", Oled_State, Fin_State, Tail_State);
 		send(sock, cMsg, strlen(cMsg), 0);
-		printf("\nSend_Packet: %s\n", cMsg);
 
 		Sleep(10);
 	}

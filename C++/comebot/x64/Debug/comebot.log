@@ -1,3 +1,82 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  main.cpp
+c:\users\yelin\source\repos\vrep\comebot\comebot\data_format.h(40): warning C4005: 'SLOW': 매크로 재정의
+  c:\users\yelin\source\repos\vrep\comebot\comebot\data_format.h(36): note: 'SLOW'의 이전 정의를 참조하십시오.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(69): warning C4244: '초기화 중': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(69): warning C4838: 'double'에서 'simxFloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(70): warning C4244: '초기화 중': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(70): warning C4838: 'double'에서 'simxFloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(71): warning C4244: '초기화 중': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(71): warning C4838: 'double'에서 'simxFloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(72): warning C4244: '초기화 중': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(72): warning C4838: 'double'에서 'simxFloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(73): warning C4244: '초기화 중': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(73): warning C4838: 'double'에서 'simxFloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(74): warning C4244: '초기화 중': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.h(74): warning C4838: 'double'에서 'simxFloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(155): warning C4244: '+=': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(156): warning C4244: '+=': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(170): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(171): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(202): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(203): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=int
+          ]
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(392): warning C4305: '초기화 중': 'double'에서 'simxFloat'(으)로 잘립니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\data_transmission.h(66): warning C4101: 'tok' :참조되지 않은 지역 변수입니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\data_transmission.h(92): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\data_transmission.h(124): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(32): warning C4244: 'return': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(37): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(38): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(40): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(41): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(43): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(44): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(56): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(58): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(63): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(65): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(74): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(76): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(81): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(83): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(90): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(92): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(102): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(104): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(109): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(111): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(133): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(135): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(140): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(142): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(150): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(152): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(157): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(159): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(168): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(170): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(175): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(177): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(185): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(187): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(192): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\main.cpp(194): warning C4244: '인수': 'double'에서 'simxFloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\yelin\source\repos\vrep\comebot\comebot\vrep_gui.h(236): warning C4172: 지역 변수 또는 임시: _click_flag의 주소를 반환하고 있습니다.
      C:\Program Files\V-REP3\V-REP_PRO_EDU\comebot.lib 라이브러리 및 C:\Program Files\V-REP3\V-REP_PRO_EDU\comebot.exp 개체를 생성하고 있습니다.
   comebot.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\comebot.exe

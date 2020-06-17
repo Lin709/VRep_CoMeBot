@@ -50,12 +50,12 @@ string Data_Packet[9][6] = {
 	{"cpp","rei","stt"},					// ID
 	{"000"},								// ¹è°íÇÄ Parameter
 	{"000"},								// ÇÇ°ïÇÔ Parameter
-	{"m10","m11","m12","m13","m14"},		// Touch Sensor 0: Default 1: Head 2: Body 3: Fin 4: Tail
-	{"m20","m21"},							// Force Sensor 0: OFF 1: ON
-	{"m30","m31"},							// Lift Sensor 0: OFF 1: ON
-	{"m40","m41","m42","m43","m44","m45"},	// OLED (0~5) 
-	{"m50","m51","m52","m53","m54"},		// FIN (0~3)
-	{"m60","m61","m62","m63","m64"},		// TAIL (0~3)
+	{"T0","T1","T2","T3","T4"},		// Touch Sensor 0: Default 1: Head 2: Body 3: Fin 4: Tail
+	{"F0","F1"},							// Force Sensor 0: OFF 1: ON
+	{"L0","L1"},							// Lift Sensor 0: OFF 1: ON
+	{"O0","O1","O2","O3","O4","O5"},	// OLED (0~5) 
+	{"F0","F1","F2","F3","F4"},		// FIN (0~3)
+	{"t0","t1","t2","t3","t4"},		// TAIL (0~3)
 };
 
 string Mode[20] = {
@@ -82,18 +82,32 @@ string Mode[20] = {
 };
 
 /* Packet Global Variables */
-int				  Id = CPP;
-int		 Hungry_Para = 100;
-int		  Tired_Para = 100;
-int Touch_Sensor = DEFAULT;
-int		Force_Sensor = OFF;
-int		 Lift_Sensor = OFF;
-int		 Oled_State = NORM;
-int		Fin_State = NOMOVE;
-int	   Tail_State = NOMOVE;
-int		  Face_Detect = NO;
-int				Reward = 0;
-int		   Mode_Select = 0;
+volatile int				  Id = CPP;
+volatile int		 Hungry_Para = 100;
+volatile int		  Tired_Para = 100;
+volatile int Touch_Sensor = DEFAULT;
+volatile int		Force_Sensor = OFF;
+volatile int		 Lift_Sensor = OFF;
+volatile int		 Oled_State = NORM;
+volatile int		Fin_State = NOMOVE;
+volatile int	   Tail_State = NOMOVE;
+volatile int		  Face_Detect = NO;
+volatile int				Reward = 0;
+volatile int		   Mode_Select = 0;
+volatile int			  Stt_Data = 0;
+volatile int					windo_change = OFF;
 
+/* Global Variables */
+
+void Send_Init_Variable() {
+	Touch_Sensor = DEFAULT;
+	Force_Sensor	 = OFF;
+	Lift_Sensor		 = OFF;
+	Reward			   = 0;
+}
+void Recv_Init_Variable() {
+	Stt_Data		   = 0;
+	Face_Detect		  = NO;
+}
 
 #endif
